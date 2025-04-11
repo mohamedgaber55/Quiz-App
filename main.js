@@ -54,7 +54,7 @@ function getQuestions(){
 
     }
 
-    myRequest.open("GET", "/html_questions.json");
+    myRequest.open("GET", "./html_questions.json");
     myRequest.send();
 }
 
