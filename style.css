@@ -35,6 +35,10 @@ header h2{
     border-radius: 5px;
     background-color: #eee;
 }
+.category span{
+   color: #03A9F4;
+   font-weight: bold;
+}
 
 .quiz-app .quiz-info{
     display: flex;
