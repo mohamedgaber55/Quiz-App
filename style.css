@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+header h2{
+    width: 350px;
+    text-align: center;
+    box-shadow: rgb(221, 221, 221) 0px 0px 10px;
+    color: #2196F3;
+    border-radius: 0px 0px 100px 100px;
+    margin: 0;
+    padding: 5px 0px;
+    font-size: 30px;
+}
+
+.quiz-app{
+    max-width: 700px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fbfbfb;
+}
+
+.quiz-app .quiz-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.quiz-app .quiz-box{
+    background-color: #fff;
+    padding: 10px;
+}
+
+.quiz-box h2{
+    margin: 0;
+}
+
+.quiz-app .answers-area{
+    background-color: #fff;
+    padding:0px 10px 10px;
+}
+
+.quiz-app .answers-area .answer{
+    padding: 15px;
+    background-color: #fbfbfb;
+    font-weight: bold;
+}
+.quiz-app .answers-area .answer:not(:last-child){
+    border-bottom: 1px solid #dfdfdf; 
+}
+.quiz-app .answers-area .answer input[type="radio"] + label {
+    color:#777;
+    cursor: pointer;
+}
+
+.quiz-app .answers-area .answer input[type="Radio"]:checked + label {
+    color: #0075ff;
+}
+
+.submit-ans{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #2196F3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.bullets{
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+}
+.spans{
+    display: flex;
+    flex: 1;
+}
+
+.bullets .spans span{
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.bullets .spans .done{
+    background-color: #2196F3;
+}
+.results{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.good{
+    color: rgb(0, 197, 0);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.perfect{
+    color: #0075ff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bad{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer{
+    position: fixed;
+    bottom: 5px;
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    padding: 5px;
+    background-color: white;
+}
+
+footer span{
+    color: #03A9F4;
+    font-weight: bold;
+}
