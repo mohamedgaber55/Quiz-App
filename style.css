@@ -62,11 +62,11 @@ header h2{
 
 .quiz-app .answers-area .answer{
     padding: 15px;
-    background-color: #fbfbfb;
+    background-color: #fbfbf9;
     font-weight: bold;
 }
 .quiz-app .answers-area .answer:not(:last-child){
-    border-bottom: 1px solid #dfdfdf; 
+    border-bottom: 1px solid #f9f9f9; 
 }
 .quiz-app .answers-area .answer input[type="radio"] + label {
     color:#777;
