@@ -33,9 +33,10 @@ header h2{
     margin: 10px auto;
     padding: 10px;
     border-radius: 5px;
-    background-color: #eee;
+    background-color: #f8f8f8;
 }
-.category span{
+.category span,
+.count span{
    color: #03A9F4;
    font-weight: bold;
 }
@@ -66,11 +67,11 @@ header h2{
 
 .quiz-app .answers-area .answer{
     padding: 15px;
-    background-color: #fbfbf9;
+    background-color: #f8f8f8;
     font-weight: bold;
 }
 .quiz-app .answers-area .answer:not(:last-child){
-    border-bottom: 1px solid #f9f9f9; 
+    border-bottom: 1px solid #ddd; 
 }
 .quiz-app .answers-area .answer input[type="radio"] + label {
     color:#777;
